@@ -50,12 +50,6 @@ docker run -it -p 3000:3000 -v "%cd%:/app" my-node-create-next-app
 ```
 *補足: PowerShellやLinux/macOSのbashでは `$(pwd)` を使用しますが、Windowsのコマンドプロンプトでは `%cd%` を使用します。*
 
-コンテナが起動し、シェルが表示されたら、`create-next-app`でNext.jsアプリケーションを作成します。
-
-```bash
-# コンテナ内で実行
-create-next-app .
-```
 
 ## 5. サンプルプログラムの実行
 Gitリポジトリのクローン
