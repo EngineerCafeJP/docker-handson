@@ -61,8 +61,7 @@ create-next-app .
 Gitリポジトリのクローン
 
 ```bash
-クローンしたいNext.jsのサンプルリポジトリのURLを指定します
-git clone <リポジトリのURL>
+git clone https://github.com/EngineerCafeJP/docker-node-handson.git
 ```
 
 パッケージのインストール
@@ -70,7 +69,6 @@ git clone <リポジトリのURL>
 クローンしたプロジェクトのディレクトリに移動し、必要なパッケージをインストールします。
 
 ```bash
-cd の後はクローンしたリポジトリ名に置き換えてください
 cd <リポジトリ名>
 npm install
 ```
