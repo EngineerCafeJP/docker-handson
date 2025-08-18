@@ -46,7 +46,7 @@ docker build -t my-node-next-app .
 `-v`オプションでホストのカレントディレクトリとコンテナの`/app`ディレクトリを同期（バインドマウント）します。
 
 ```bash
-docker run -it -p 3000:3000 -v "%cd%:/app" my-node-create-next-app
+docker run -it -p 3000:3000 -v $(pwd):/app my-node-create-next-app
 ```
 *補足: PowerShellやLinux/macOSのbashでは `$(pwd)` を使用しますが、Windowsのコマンドプロンプトでは `%cd%` を使用します。*
 
