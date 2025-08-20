@@ -1,0 +1,15 @@
+# Dependencies
+/node_modules
+
+# Build directory
+/.next/
+/out/
+
+# Production build files
+/build
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Environment variables
+.env*.local
