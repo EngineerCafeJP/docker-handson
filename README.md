@@ -55,7 +55,7 @@ docker run -it -p 3000:3000 -v $(pwd):/app my-node-create-next-app
 Gitリポジトリのクローン
 
 ```bash
-git clone https://github.com/EngineerCafeJP/docker-node-handson.git
+git clone https://github.com/EngineerCafeJP/docker-handson.git
 ```
 
 パッケージのインストール
