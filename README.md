@@ -63,7 +63,7 @@ git clone https://github.com/EngineerCafeJP/docker-handson.git
 クローンしたプロジェクトのディレクトリに移動し、必要なパッケージをインストールします。
 
 ```bash
-cd <リポジトリ名>
+cd docker-handson
 npm install
 ```
 
